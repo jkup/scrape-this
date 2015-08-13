@@ -1,0 +1,32 @@
+{
+  "name": "scrape-this",
+  "version": "1.0.0",
+  "description": "Scrape the content of an element on a given page at a given interval",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkup/scrape-this.git"
+  },
+  "keywords": [
+    "scraper",
+    "scrape",
+    "website",
+    "site"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/scrape-this/issues"
+  },
+  "homepage": "https://github.com/jkup/scrape-this",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "cron": "^1.0.9",
+    "express": "^4.13.3",
+    "nodemailer": "^1.4.0",
+    "request": "^2.60.0"
+  }
+}
